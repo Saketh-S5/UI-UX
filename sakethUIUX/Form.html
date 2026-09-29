@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" req>
+        Name: <input type="text" name="name" placeholder="enter name"><br>
+        Email:<input type="text" name="email" placeholder="enter email"><br>
+        password:<input type="password" name="password" placeholder="enter password"><br>
+       
+        <h4>Please check all the emotions that apply to you:</h4>
+       
+        Angry:<input type="checkbox" name="angry" value="angry"><br>
+        Sad:<input type="checkbox" name="sad" value="sad"> <br>
+        Happy:<input type="checkbox" name="Happy" value="happy"><br>
+        Ambivalent:<input type="checkbox" name="Ambivalent" value="Ambivalent"><br>
+
+        <h4>How satisfied are you with our service? </h4>
+        Very satisfied:<input type="radio" name="service" required><br>
+        Satisfied:<input type="radio" name="service"><br>
+        Didn't care:<input type="radio" name="service"><br>
+        Dissatisfied:<input type="radio" name="service"><br>
+        Very dissatisfied:<input type="radio" name="service"><br>  
+        
+        Further comments:<br>
+       <textarea name="comments" rows="3" cols="40" placeholder="enter your comments"></textarea><br>
+        
+        <br>Bio Photo:<input type="file" name="bio photo" accept=".png"><br>
+        Location Visited:<select name="location visited"><br>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+        </select><br>
+<br>
+<input type="submit" value="submit"><br>
+     <input type="reset" value="reset">
+    </form>
+    
+</body>
+</html>

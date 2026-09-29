@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f2f2;
+    background-image:url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg");
+}
+img{
+    max-width: 50px;
+    height: 50px;
+    border-radius: 0%;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
